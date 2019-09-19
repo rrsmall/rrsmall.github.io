@@ -1,0 +1,75 @@
+@media only screen and (max-width: 600px) {
+
+  .dropdown {
+    font-family: optima, sans-serif;
+    font-size:80%;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    font-family: optima, sans-serif;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 5px 5px 5px #f98b88;
+    padding: 10px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+ul {
+  font-size: 80%;
+  font-family: optima, sans-serif;
+}
+
+ul.li {
+  font-size: 80%;
+  font-family: optima, sans-serif;
+}
+
+ol {
+  font-size: 80%;
+  font-family: optima, sans-serif;
+}
+
+ol.li {
+  font-size: 80%;
+  font-family: optima, sans-serif;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  padding:1px;
+  border:1px solid #021a40;
+  background-color: white;
+  }
+
+h1 {
+  font-size: 100%;
+  font-family: optima, sans-serif;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+  color: #ffcba4;
+}
+
+h3 {
+  font-size: 80%;
+  font-family: optima, sans-serif;
+}
+
+h4 {
+  font-size: 80%;
+  font-family: optima, sans-serif;
+  color: #f98b88;
+  }
+
+p {
+  font-size: 80%;
+  font-family: optima, sans-serif;
+}
