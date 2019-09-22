@@ -19,6 +19,14 @@
   display: block;
 }
 
+.button{
+  background-color: #f98b88;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
 img {
   width: 300;
   height: 250;
@@ -75,4 +83,8 @@ p {
 
 a {
    font-family: optima, sans-serif;
+}
+
+th {
+  background-color: #f98b88;
 }
