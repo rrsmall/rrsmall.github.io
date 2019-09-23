@@ -88,3 +88,8 @@ a {
 th {
   background-color: #f98b88;
 }
+
+form {
+  font-family: optima, sans-serif;
+  font-size: 75%;
+}
