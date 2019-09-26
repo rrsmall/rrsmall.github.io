@@ -3,6 +3,7 @@
   font-size: 110%;
   position: relative;
   display: inline-block;
+
 }
 
 .dropdown-content {
@@ -19,12 +20,9 @@
   display: block;
 }
 
-.button{
-  background-color: #f98b88;
-  border: none;
-  color: white;
-  text-align: center;
-  display: inline-block;
+.my-primary{
+  font-family: optima, sans-serif;
+  color:#f98b88;
 }
 
 img {
