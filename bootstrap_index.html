@@ -11,12 +11,10 @@
     <title>CUS 1172</title>
   </head>
 
-  <div class="container">
-    <h1 class="my-primary">Welcome to my Profile Page</h1>
-  </div>
+    <h1><strong>Welcome to my Profile Page</strong></h1>
 
    <div class="dropdown">
-      <span>Menu</span>
+      <span><strong>Menu</strong></span>
       <div class="dropdown-content">
           <nav>
             <div class="container">
@@ -39,63 +37,106 @@
 
     <div id ="basics">
       <div class="container">
-      <img class="img-fluid" src ="profilepicture.png"
-      width="300" height="250" HSPACE="10" VSPACE="5">
-    </div>
-
-      <h3>Raeven Small</h3>
+      <img class="img-fluid" src ="profilepicture.png" align="left"
+      width="250" height="200" HSPACE="30" VSPACE="15">
+      <h3><strong>Raeven Small</strong></h3>
       <p> Hometown: Brooklyn, NY <br>
           Age: 21 <br>
           Major: Computer Science and Business Administration
       </p>
     </div>
+</div>
 
-      <div id ="aboutme">
-        <h4>About me!</h4>
+  <div id="accordion">
+    <div class="card">
+      <div class="header">
+        <a class="link" data-toggle="collapse"
+        href= "#aboutme">
+        <h4>About me<arrow class="down"</arrow></h4>
+      </a>
+    </div>
+      <div id ="aboutme" class="collapse" data-parent="#accordion">
         <p>Hello! My name is Raeven and I am currently enrolled in my last semester
-          here at St. Johns University! I was born and raised in Brooklyn, NY and
-          have lived in Brooklyn my whole life. I have a passion for working with
-          children and I hope that one day I am able to teach them in my field.
-        </p>
+        here at St. Johns University! I was born and raised in Brooklyn, NY and
+        have lived in Brooklyn my whole life. I have a passion for working with
+        children and I hope that one day I am able to teach them in my field. <p>
       </div>
+    </div>
 
-      <div id ="education">
-        <h4>Education</h4>
-           <ul>
+    <div>
+      <div id="accordion">
+        <div class="card">
+          <div class="header">
+            <a class="link" data-toggle="collapse"
+            href= "#education">
+            <h4>Education<h4>
+          </a>
+        </div>
+      <div id ="education" class="collapse" data-parent="#accordion">
+           <ul class="list-unstyled">
              <li>St. Johns University<br>
                Fall 2019</li>
+            <li>St. Joseph's High School<br>
+                June 2015</li>
            </ul>
       </div>
+    </div>
 
-      <div id ="workexperience">
-        <h4>Work Experience</h4>
+    <div>
+      <div id="accordion">
+        <div class="card">
+          <div class="header">
+            <a class="link" data-toggle="collapse"
+            href= "#workexperience">
+            <h4>Work Experience<h4>
+          </a>
+        </div>
+      <div id ="workexperience" class="collapse" data-parent="#accordion">
         <p>I unfortunatey have not had the opportunities to be apart of an internship
           so currently I am working retail in Manhattan with the hopes of securing
           a position when the semester is over. I have had various positions throughout
           the years with children. I have had the opportunity to be a Camp Counselor, Step
           Specialist and Group Leader for a STEM afterschool program also being a co-leader
-          for the science club.
+          for the science club.<p>
       </div>
+    </div>
+  </div>
 
-  <div>
-    <div id ="skills">
-      <h4>Programming Skills</h4>
+      <div>
+        <div id="accordion">
+          <div class="card">
+            <div class="header">
+              <a class="link" data-toggle="collapse"
+              href="#skills">
+            <h4>Programming Skills</h4>
+          </a>
+        </div>
+    <div id ="skills" class="collapse" data-parent="#accordion">
         <p>Knowledge of Java, Python, SQL <br>
           Beginner in HTML
         </p>
     </div>
+  </div>
 
     <div>
-      <div id ="interests">
-        <h4>General Interests</h4>
+      <div id="accordion">
+        <div class="card">
+          <div class="header">
+            <a class="link" data-toggle="collapse"
+            href="#interests">
+            <h4>General Interests</h4>
+          </a>
+        </div>
+      <div id ="interests" class="collapse" data-parent="#accordion">
           <p>Some of my hobbies include but are definitely not limited to:</p>
-        <ul>
+        <ul class="list-unstyled">
           <li>Dancing and Stepping</li>
           <li>Reading</li>
           <li>Singing off key</li>
           <li>Scrolling on Social Media</li>
         </ul>
       </div>
+    </div>
 
       <div id ="favorites">
         <p><b>My top 3 favorite websites for:</b></p>

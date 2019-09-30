@@ -1,8 +1,10 @@
 .dropdown {
+  cursor:pointer;
   font-family: optima, sans-serif;
   font-size: 110%;
   position: relative;
   display: inline-block;
+  padding: 10px;
 
 }
 
@@ -20,18 +22,35 @@
   display: block;
 }
 
-.my-primary{
-  font-family: optima, sans-serif;
-  color:#f98b88;
+.card {
+  cursor: pointer;
+  padding: 1px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.card-header{
+  font-family:optima, sans-serif;
+  color: #f98b88;
+}
+
+arrow {
+  border: solid #f98b88;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(-135deg);
+    -webkit-transform: rotate(45deg);
 }
 
 img {
-  width: 300;
-  height: 250;
   max-width: 300;
-  padding:1px;
-  border:1px solid #021a40;
-  background-color: white;
+  padding:3px;
+  border:3px dashed #f98b88;
 }
 
 body {
@@ -62,7 +81,9 @@ h1 {
   text-align: center;
   border-style: solid;
   border-width: medium;
-  color: #ffcba4;
+  outline: 7px dotted;
+  color: #f98b88;
+  padding:8px;
 }
 
 h3 {
